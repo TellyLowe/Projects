@@ -13,7 +13,6 @@
     "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
     "deploy": "gh-pages -d dist",
-    // "test": "echo \"Error: no test specified\" && exit 1",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
@@ -45,6 +44,5 @@
   "keywords": [],
   "bugs": {
     "url": "https://github.com/TellyLowe/Projects/issues"
-  },
-  "homepage": "https://github.com/TellyLowe/Projects#readme"
+  }
 }
