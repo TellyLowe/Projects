@@ -6,16 +6,16 @@ $(function () {
             $("#carouselButton").children("i").removeClass("fa-pause");
             $("#carouselButton").children("i").addClass("fa-play");
         } else {
-              $(".carousel").carousel("cycle");
-              $("#carouselButton").children("i").removeClass("fa-play");
-              $("#carouselButton").children("i").addClass("fa-pause");
+                $(".carousel").carousel("cycle");
+                $("#carouselButton").children("i").removeClass("fa-play");
+                $("#carouselButton").children("i").addClass("fa-pause");
         }
     });
     $("#reserveButton").click(function (){
-              $("#reserveModal").modal("show")
+                $("#reserveModal").modal("show")
     });
     $("#loginButton").click(function (){
-             $("#loginModal").modal("show")
+                $("#loginModal").modal("show")
     });
 });
 
