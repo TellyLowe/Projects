@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3 {
@@ -26,6 +28,8 @@ header h2 {
   min-height: 200px; }
 
 .navbar {
+  margin: 0;
+  padding: 0;
   background-color: #901CAD; }
 
 .tab-content {
